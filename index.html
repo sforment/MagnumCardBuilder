@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magnum Card Builder</title>
+</head>
+<body>
+<div>
+	<h1>Magnum Card Builder</h1>
+	<input type="text" id="name" required="" placeholder="pick a name" /><br>
+		<select id="die" type="text">
+			<option>D4</option>
+			<option>D6</option>
+			<option>D8</option>
+			<option>D10</option>
+			<option>D12</option>
+		</select><br>
+	<input type="number" id="range" required="" step="6" /><br>
+		<select id="aug"  type="text">
+			<option>None</option>
+			<option>Turbo-Pen</option>
+			<option >Spray</option>
+			<option>Blast</option>
+			<option>Volley</option>
+			<option>Semi-Auto</option>
+		</select><br>
+<button type="button" onclick="build()">Build</button>
+
+<ul>
+	<li id="display1"></li>
+	<li id="display2"></li>
+	<li id="display3"></li>
+	<li id="display4"></li>
+</ul>
+
+</div>
+</body>
+<script type="text/javascript" src='testconstructor1.js'></script>
+</html>
